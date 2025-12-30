@@ -84,3 +84,10 @@ cards:
 - VEICHI AC10
 - VEICHI AC70
 - VEICHI AC300
+
+## Avertissement
+
+Cette intégration n'est **pas approuvée, associée ou supportée par VEICHI**. 
+
+Le nom « VEICHI », les logos et toutes les marques de commerce et marques déposées présents dans ce dépôt sont la propriété de VEICHI.
+L'utilisation de ces noms, marques de commerce et logos dans ce projet est uniquement à des fins d'identification et n'implique aucune approbation ou affiliation avec VEICHI.
