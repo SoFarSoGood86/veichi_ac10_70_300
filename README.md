@@ -13,14 +13,14 @@
 - Diagnostics Home Assistant
 
 ## Installation
-1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories
+1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories.
 2. Ajouter l’URL du dépôt dans HACS :
    ```
    https://github.com/SoFarSoGood86/veichi_ac70
    ```
-3. Installer l'intégration, choisir **Category: Integration**
-4. Configurer l'adresse IP (192.168.1.254)
-5. Installer l’intégration et redémarrer HA
+3. Installer l'intégration, choisir **Category: Integration**.
+4. Configurer l'adresse IP (192.168.1.254).
+5. Installer l’intégration et redémarrer HA.
 
 ## Configuration Waveshare ETH/Série RS232 / RS485-422
 
@@ -36,10 +36,10 @@
 ## Lovelace - carte example :
 
 #### Configuration HA :
-1. Aller dans "Modifier tableau de bord"
-2. Ajouter au tableau de bord et selectionner "Manuel"
-3. Copier un des codes ci-dessous 
-4. Copier manuellement le code YAML
+1. Sur votre tableau de bord, aller dans "Modifier tableau de bord" en haut à droite.
+2. "Ajouter au tableau de bord" puis selectionner "Manuel".
+3. Copier le code ci-dessous.
+4. Copier manuellement le code YAML.
 
 
 #### Carte simple ( Entities )
