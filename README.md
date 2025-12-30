@@ -1,7 +1,7 @@
 <img width="1197" height="417" alt="VEICHI Header" src="https://github.com/user-attachments/assets/9b6fccda-1099-43cb-bcc5-1732d246eb9e" />
 
 # VEICHI AC70
-Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 Modbus RTU/TCP.
+Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH Série RS485 Modbus RTU/TCP.
 
 ## Fonctionnalités
 - Marche / Arrêt
@@ -14,7 +14,7 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 
 ## Installation
 1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories
 2. Ajouter l’URL du dépôt dans HACS :
-   `https://github.com/SoFarSoGood86/waveshare_serial_poe`
+   `https://github.com/SoFarSoGood86/veichi_ac70_hacs.git`
 3. Installer l'intégration, choisir **Category: Integration**
 4. Configurer l'adresse IP (192.168.1.254)
 5. Installer l’intégration et redémarrer HA
@@ -25,7 +25,7 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 
 
    * **IP du boîtier Waveshare** : ex. `192.168.1.254` (ou autre selon configuration)
    * **Port TCP** : ex. `23` (ou autre selon configuration)
-   * **Mode physique** : RS-485
+   * **Mode physique** : RS485
    * **Slave Modbus** : ex. `1`(ou autre selon configuration)
 
 - Valider et sauvegarder
