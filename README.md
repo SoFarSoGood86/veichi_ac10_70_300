@@ -27,7 +27,7 @@
 - Renseigner les champs :
 
    * **IP du boîtier Waveshare** : ex. `192.168.1.254` (ou autre selon configuration)
-   * **Port TCP** : ex. `23` (ou autre selon configuration)
+   * **Port TCP** : ex. `502` (ou autre selon configuration)
    * **Mode physique** : RS485
    * **Slave Modbus** : ex. `1`(ou autre selon configuration)
 
@@ -39,7 +39,7 @@
 modbus:
   - name: veichi_ac70
     type: tcp
-    host: 192.168.1.50
+    host: 192.168.1.254
     port: 502
     delay: 1
     timeout: 5
@@ -49,8 +49,8 @@ modbus:
         slave: 1
         address: 0x2000
         write_type: holding
-        command_on: 1
-        command_off: 0
+        command_on: 1      # Marche
+        command_off: 0     # Arrêt
 
       - name: "AC70 Sens rotation"
         slave: 1
