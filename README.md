@@ -39,7 +39,7 @@
 
 ## Configuration yaml :
 
-### VEICHI AC10 :
+#### VEICHI AC10 :
 
 ```yaml
 modbus:
@@ -50,10 +50,10 @@ modbus:
     delay: 1
     timeout: 5
 
-    Coming soon
+    En cours...
 ```
 
-## Configuration VEICHI AC70 (yaml) :
+#### VEICHI AC70 :
 
 ```yaml
 modbus:
@@ -125,7 +125,7 @@ modbus:
         precision: 0
 ```
 
-## Configuration VEICHI AC300 (yaml) :
+#### VEICHI AC300 :
 
 ```yaml
 modbus:
@@ -136,7 +136,7 @@ modbus:
     delay: 1
     timeout: 5
 
-    Coming soon
+    En cours...
 ```
 <img width="1197" height="21" alt="Baner" src="https://github.com/user-attachments/assets/f3ae4b2b-d0ec-4efd-9821-147d31e2c54b" />
 
